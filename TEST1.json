@@ -1,0 +1,17 @@
+{
+  "request": [
+    {
+      "enable": true,
+      "name": "雀魂-修改背景",
+      "ruleType": "redirect",
+      "matchType": "regexp",
+      "pattern": "^https?://(gamel\\.maj-soul\\.com/1|(www\\.|game\\.)?maj-soul.com/1|game\\.mahjongsoul\\.com|mahjongsoul\\.game\\.yo-star\\.com)/[^/]+/scene/Assets/Resource/tablecloth/[^/]+/Table_Dif.jpg",
+      "exclude": "",
+      "isFunction": false,
+      "action": "redirect",
+      "to": "https://i.imgur.com/E3FNu3H.jpg"
+    }
+  ],
+  "sendHeader": [],
+  "receiveHeader": []
+}
